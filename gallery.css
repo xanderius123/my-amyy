@@ -1,0 +1,52 @@
+body {
+  background-color: #fff0f5;
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.framed {
+  width: 100%;
+  border: 15px solid #ff99cc;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff3399;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.love-message {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #d63384;
+  font-style: italic;
+  text-shadow: 1px 1px #ffffff;
+  padding: 10px 20px;
+}
